@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina html</title>
+</head>
+<body>
+    <h1>Mi primera pagina HTML</h1>
+    <h2>Quien soy?</h2>
+    <h3>primero dale play abajo</h3>
+    <br>
+    <p>Hola mi nombre es <mark>jeronimo vallejo</mark> mis amigos me dicen tucu, tengo 27 años, soy jugador profesional de esports, vivo en Tucuman y <strong>estoy aprendiendo a programar</strong></p>
+    <div><img src="Tucu.jpg" alt="facherito"></div>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>edad</th>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>27</td>
+                <td>jeronimo</td>
+                <td>vallejo</td>
+                <td>jeronimovallejo97@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+<a href="https://www.instagram.com/jerovall/" target="_blank"><strong>mi instragram</strong></a>
+<br>
+<audio controls src="MC Menor JP - Menina de Vermelho.mp3"></audio>
+<video controls src="Paloma Girando con Funkytown de fondo.mp4"></video>
+</body>
+<!-- DESDE ACA ES EL PRACTICO N2, ANTES DE ESTO ES EL PRACTICO N1-->
+<h3>Informacion de contacto</h3>
+<Form>
+    <label for="Nombre"></label>
+    <input type="text" placeholder="Nombre" id="Nombre">
+</Form>
+<Form>
+    <label for="Apellido"></label>
+    <input type="text" placeholder="Apellido" id="apellido">
+</Form>
+<Form>
+    <input type="date" id="Edad" name="Edad" required min="1924-01-01" max="2024-12-31">
+    <label for="Edad"></label>
+</Form>
+    <form action="">
+        <label for="email"></label>
+        <input type="email" placeholder="Email" id="email" required>
+    </form>
+    <form action="">
+        <label for="Direccion"></label>
+        <input type="text" placeholder="Direccion" name="Direccion" id="Direccion">
+    </form>
+    <form action="">
+        <label for="Genero"></label>
+        <select name="Genero" id="Genero">
+        <option selected disabled>Genero</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+        <option value="Otro">Otro</option>
+        </select>
+    </form>        
+<textarea name="Descripcion" rows="10" cols="30" maxlength="500" minlength="20" placeholder="Cuentanos sobre ti" id="Descripcion"></textarea>
+<form action=""method="post">
+    <button type="submit">Enviar</button>
+    </form>
+
+
+
+</html>
